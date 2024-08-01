@@ -277,6 +277,9 @@ jobs:
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
+          # Module: File: code customization description
+          curl https://github.com/johnkuhn/LoopWorkspace/commit/SHA-1.patch | git apply -v --directory=LoopWorkspace
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
