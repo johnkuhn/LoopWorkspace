@@ -287,6 +287,8 @@ jobs:
           watch_title \
           meal_week \
           2002 \
+          profiles \
+          basal_lock \
           live_activity
 
           # the final customization listed above CANNOT have a continuation character
