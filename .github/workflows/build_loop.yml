@@ -287,7 +287,6 @@ jobs:
           watch_title \
           meal_week \
           2002 \
-          profiles \
           basal_lock \
           live_activity
 
